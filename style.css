@@ -23,8 +23,9 @@ body {
 }
 
 .lab-logo {
-    max-width: 100px;
-    height: auto;
+    width: 15%;   /* The logo will take up 15% of the width of the header */
+    height: auto; /* Maintain the aspect ratio */
+}
 }
 
 .lab-title {
