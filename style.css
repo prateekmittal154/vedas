@@ -8,41 +8,99 @@ body {
     color: #333;
 }
 
-/* Header Styles */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+/* Header Styling */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: #f0f0f0; /* Adjust as necessary */
+    border-bottom: 1px solid #ddd;
 }
+
+.logo-container {
+    margin-right: 20px;
+}
+
+.lab-logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.lab-title {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Other page styles remain the same */
+
+/* Team Section Styling */
+#team {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team-member {
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #777;
+}
+
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
 
 /* Main Content Styles */
 main {
