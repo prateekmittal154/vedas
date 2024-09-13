@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Research Group - Team</title>
+    <title>Team - Research Group</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Our Team</h1>
+        <div class="logo-container">
+            <img src="logo.png" alt="Research Lab Logo" class="lab-logo">
+        </div>
+        <h1>Research Group</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Introduction</a></li>
@@ -22,41 +25,35 @@
 
     <main>
         <section id="team">
-            <h2>Meet Our Team</h2>
-            <p>We are a group of passionate researchers dedicated to pushing the boundaries of knowledge in our field. Meet our team members below:</p>
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="team1.jpg" alt="Team Member 1" class="team-photo">
+                    <h3>Dr. John Doe</h3>
+                    <p>Principal Investigator</p>
+                </div>
 
-            <article class="team-member">
-                <h3>Dr. [Team Lead Name]</h3>
-                <p><strong>Position:</strong> Principal Investigator</p>
-                <p><strong>Research Focus:</strong> Artificial Intelligence, Machine Learning, Data Science</p>
-                <p><strong>Email:</strong> lead@example.com</p>
-            </article>
+                <div class="team-member">
+                    <img src="team2.jpg" alt="Team Member 2" class="team-photo">
+                    <h3>Jane Smith</h3>
+                    <p>Postdoctoral Fellow</p>
+                </div>
 
-            <article class="team-member">
-                <h3>Dr. [Senior Researcher Name]</h3>
-                <p><strong>Position:</strong> Senior Researcher</p>
-                <p><strong>Research Focus:</strong> Sustainable Energy, Smart Grids</p>
-                <p><strong>Email:</strong> researcher@example.com</p>
-            </article>
+                <div class="team-member">
+                    <img src="team3.jpg" alt="Team Member 3" class="team-photo">
+                    <h3>Emily White</h3>
+                    <p>PhD Student</p>
+                </div>
 
-            <article class="team-member">
-                <h3>[PhD Student Name]</h3>
-                <p><strong>Position:</strong> PhD Student</p>
-                <p><strong>Research Focus:</strong> Natural Language Processing, Educational Technology</p>
-                <p><strong>Email:</strong> student@example.com</p>
-            </article>
-
-            <article class="team-member">
-                <h3>[Research Assistant Name]</h3>
-                <p><strong>Position:</strong> Research Assistant</p>
-                <p><strong>Research Focus:</strong> Data Analysis, AI for Healthcare</p>
-                <p><strong>Email:</strong> assistant@example.com</p>
-            </article>
+                <!-- Add more team members as needed -->
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; [Year] [Your Research Group Name]. All rights reserved.</p>
+        <p>&copy; 2024 Research Group. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
