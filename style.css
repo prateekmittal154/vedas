@@ -11,7 +11,7 @@ body {
 /* Header Styling */
 .header-container {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center; /* Center the header content */
     padding: 10px 20px;
     border-bottom: 1px solid #ccc; /* Light grey border for separation */
@@ -24,8 +24,8 @@ body {
 }
 
 .lab-logo {
-    max-width: 300px; /* Adjust logo size */
-    height: 300px;
+    max-width: 200px; /* Adjust logo size */
+    height: 200px;
 }
 
 .lab-title {
