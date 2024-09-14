@@ -30,8 +30,8 @@ body {
 
 .lab-title {
     font-size: 2rem; /* A bit larger for the lab title */
-    font-weight: normal;
-    margin-left: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
     text-align: center; /* Center text */
 }
 
