@@ -1,10 +1,10 @@
 /* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Professional, clean font */
     margin: 0;
     padding: 0;
-    background-color: #fff; /* Pure white background */
-    color: #000; /* Black text for maximum readability */
+    background-color: #fff;
+    color: #000;
     line-height: 1.6;
 }
 
@@ -12,14 +12,15 @@ body {
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* Center the header content */
     padding: 10px 20px;
     border-bottom: 1px solid #ccc; /* Light grey border for separation */
+    position: relative; /* To help center the lab title */
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
+    position: absolute;
+    left: 20px; /* Align logo on the left without shifting other content */
 }
 
 .lab-logo {
@@ -28,28 +29,36 @@ body {
 }
 
 .lab-title {
-    font-size: 1.8rem; /* Slightly smaller for minimalistic feel */
+    font-size: 2rem; /* A bit larger for the lab title */
     font-weight: normal;
-    margin-left: 20px; /* Space between logo and title */
+    margin-left: 20px;
+    text-align: center; /* Center text */
 }
 
 /* Navigation Styling */
+nav {
+    text-align: center; /* Center the nav bar */
+    margin-top: 10px;
+}
+
 nav ul {
-    display: flex;
+    display: inline-block; /* To keep the items together in the center */
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
-    margin-right: 20px;
+    display: inline-block;
+    margin: 0 15px; /* Space between nav items */
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #000; /* Inherit black text */
+    color: #000; /* Black text */
     font-size: 1rem;
     font-weight: normal;
+    padding: 5px 10px;
 }
 
 nav ul li a:hover {
@@ -60,14 +69,15 @@ nav ul li a:hover {
 main {
     padding: 20px;
     max-width: 1000px;
-    margin: 0 auto; /* Center main content */
+    margin: 0 auto;
+    font-size: 1.1rem; /* Slightly larger for readability */
 }
 
 /* Footer Styling */
 footer {
     text-align: center;
     padding: 20px;
-    border-top: 1px solid #ccc; /* Light border */
+    border-top: 1px solid #ccc;
     margin-top: 20px;
     font-size: 0.9rem;
 }
@@ -82,13 +92,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Space between team members */
+    gap: 20px;
 }
 
 .team-member {
     width: 200px;
     padding: 10px;
-    border: 1px solid #ccc; /* Simple border around each team member */
+    border: 1px solid #ccc;
     border-radius: 4px;
     text-align: center;
 }
@@ -96,7 +106,7 @@ footer {
 .team-photo {
     width: 100%;
     height: auto;
-    border-radius: 50%; /* Circular team member photos */
+    border-radius: 50%;
 }
 
 .team-member h3 {
@@ -107,7 +117,7 @@ footer {
 
 .team-member p {
     font-size: 0.9rem;
-    color: #333; /* Slightly lighter text for description */
+    color: #333;
 }
 
 /* Project Page Styling */
@@ -119,7 +129,7 @@ footer {
 
 .project-item {
     padding: 10px 0;
-    border-bottom: 1px solid #ccc; /* Separator between projects */
+    border-bottom: 1px solid #ccc;
 }
 
 .project-item h3 {
@@ -167,7 +177,7 @@ footer {
 }
 
 .contact-form button:hover {
-    background-color: #f0f0f0; /* Subtle hover effect */
+    background-color: #f0f0f0;
 }
 
 /* Publications Page Styling */
@@ -179,7 +189,7 @@ footer {
 
 .publication-item {
     padding: 10px 0;
-    border-bottom: 1px solid #ccc; /* Separator between publications */
+    border-bottom: 1px solid #ccc;
 }
 
 .publication-item h3 {
