@@ -183,7 +183,7 @@ footer {
     flex-direction: column;
     gap: 40px;
     max-width: 1000px;
-    margin: 0 auto; /* Center the list */
+    margin: 40px auto; /* Center the list */
 }
 
 /* Individual Team Member Styling */
